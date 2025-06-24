@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <titel>Objects in JS</titel>
+    </head>
+    <body>
+        <h1>Objects in JS</h1>
+        <p>Student details:</p>
+        <p id="output"></p>
+        <hr>
+        <h1>Inbuilt Math Objects</h1>
+        <script>
+            //create an object
+            var student={
+                name:"Ava",
+                age:17,
+                grade:11
+            };
+            //access the values of the object
+            document.getElementById("output").innerHTML=" Student Name:"+student.name+"<br>"+"Student's Grade:"+student.grade+"<br>"+"Student's age:"+student.age+"<br>";
+            var value=Math.acos(-1);
+            document.write("Cosine of -1:"+value+"<br>")
+            var value=Math.asin(1);
+            document.write("Sine of 1:"+value+"<br>")
+            var value=Math.atan(.5);
+            document.write("Tangent of 0.5:"+value+"<br>")
+        </script>
+    </body>
+</html>
